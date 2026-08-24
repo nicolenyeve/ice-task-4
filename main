@@ -1,0 +1,8 @@
+public static void main(String[] args) {
+    WeightLossModel model = new WeightLossModel();
+    model.CustomerName = " JOE BLOGGS";
+    model.WeighLoss = 10;
+    PrintWeightloss printWeightloss = new PrintWeightloss(model);
+    printWeightloss.Print();
+
+}
