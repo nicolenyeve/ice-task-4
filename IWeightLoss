@@ -1,0 +1,5 @@
+public interface IWeightloss {
+    String GetCustomerName();
+    double GetWeightloss();
+
+}
